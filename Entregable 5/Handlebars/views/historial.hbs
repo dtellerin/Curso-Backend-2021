@@ -1,0 +1,26 @@
+<div class="jumbotron">
+    <h1 style="color:blue;"> Vista de Productos</h1>
+    <br>
+
+    {{#if productos.length}} 
+        <div class="table-responsive">
+            <table class="table table-dark">
+                <tr style="color: yellow;"> 
+                    <th>Nombre</th> 
+                    <th>Precio</th> 
+                    <th>Foto URL</th>
+                </tr>
+                {{#each productos}}
+                    <tr> 
+                        <td>{{this.title}}</td> 
+                        <td>${{this.price}}</td> 
+                        <td><img src="{{this.thumbail}}"></td> 
+                    </tr>
+                {{/each}}
+            </table>
+        </div>
+    {{else}}  
+        <h3 class="alert alert-warning">No se encontraron productos</h3>
+    {{/if}}
+<a href="http://localhost:8080/" class="btn btn-info mt-3 mb-5" role="button">Volver</a>
+</div>

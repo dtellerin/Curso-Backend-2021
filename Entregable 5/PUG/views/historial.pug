@@ -1,0 +1,28 @@
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Plantilla de productos en PUG
+  link( rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' 
+        integrity='sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l'     
+        crossorigin='anonymous')
+.container.mt-3
+  .jumbotron
+    h1(style='color:blue;') Vista de Productos
+    br
+    if productos.length > 0
+        .table-responsive
+        table.table.table-dark
+            tbody
+            tr(style='color: yellow;')
+                th Nombre
+                th Precio
+                th Foto URL
+            each val in productos
+                tr
+                    td= val.title
+                    td= val.price
+                    td: img(src= val.thumbail) 
+            
+    else 
+        h3(class="alert alert-warning") No hay productos
+    a.btn.btn-info.mt-3.mb-5(href='http://localhost:8080/' role='button') Volver

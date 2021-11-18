@@ -1,0 +1,39 @@
+[
+  {
+    "id": 2,
+    "timestamp": 1637260649,
+    "producto": [
+      {
+        "id": 2,
+        "timestamp": 1637087499,
+        "title": "regla",
+        "description": "regla medir",
+        "code": "RM",
+        "thumbail": "www.google.com.ar",
+        "price": "201",
+        "stock": "2"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "timestamp": 1637260656,
+    "producto": [
+      {
+        "id": 2,
+        "timestamp": 1637087499,
+        "title": "regla",
+        "description": "regla medir",
+        "code": "RM",
+        "thumbail": "www.google.com.ar",
+        "price": "201",
+        "stock": "2"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "timestamp": 1637260872,
+    "producto": []
+  }
+]

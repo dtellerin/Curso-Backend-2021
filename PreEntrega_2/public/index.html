@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <h2>Ingrese Producto</h2>
+    <form action="/api/productos" method="POST">
+        title: <input type="text" name="title">
+        descripcion: <input type="text" name="descripcion">
+        code: <input type="text" name="code">
+        thumbail: <input type="text" name="thumbail">
+        <br>
+        price: <input type="text" name="price">
+        stock: <input type="number" name="stock">
+        <button>Enviar</button>
+    </form>
+
+    <h2>Ingrese Carrito</h2>
+    <form action="/api/carrito" method="POST">
+        <button>Agregar Carrito</button>
+    </form>
+
+</body>
+
+</html>

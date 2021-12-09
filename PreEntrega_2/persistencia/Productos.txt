@@ -1,0 +1,51 @@
+[
+  {
+    "id": 2,
+    "timestamp": 1637087499,
+    "title": "regla1",
+    "description": "regla medir",
+    "code": "RM2",
+    "thumbail": "www.google3.com.ar",
+    "price": "351"
+  },
+  {
+    "id": 3,
+    "timestamp": 1637261467,
+    "title": "escuadrita",
+    "description": "Escuadra corta",
+    "code": "EC",
+    "thumbail": "www.google2.com.ar",
+    "price": "401",
+    "stock": "40"
+  },
+  {
+    "id": 4,
+    "timestamp": 1637951260,
+    "title": "Regla",
+    "description": "regla medir",
+    "code": "RM",
+    "thumbail": "https://cdn3.iconfinder.com/data/icons/unigrid-phantom-baby/60/012_039_stadiometer_baby_growup-32.png",
+    "price": "201",
+    "stock": "3"
+  },
+  {
+    "id": 5,
+    "timestamp": 1637951662,
+    "title": "Regla",
+    "description": "regla medir",
+    "code": "RM",
+    "thumbail": "https://cdn3.iconfinder.com/data/icons/unigrid-phantom-baby/60/012_039_stadiometer_baby_growup-32.png",
+    "price": "201",
+    "stock": "3"
+  },
+  {
+    "id": 6,
+    "timestamp": 1638145923,
+    "title": "Regla",
+    "description": "regla medir",
+    "code": "RM",
+    "thumbail": "https://cdn3.iconfinder.com/data/icons/unigrid-phantom-baby/60/012_039_stadiometer_baby_growup-32.png",
+    "price": "201",
+    "stock": "4"
+  }
+]

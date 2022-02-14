@@ -1,0 +1,13 @@
+Archivos nuevos y modificaciones:
+
+- Se agrega la ruta /api/info que trae la información del sistema
+- Se agrega el archivo SystemInfo.js que recopila la información del sistema.
+- Se agrega la vista systemInfo.ejs para renderizar los datos del sistema.
+- Se agrega el archivo de configuración /config/config.env con los usuarios y pass de las distintas bases de datos
+- Se modifican los archivos /config/cfgMongoDB.js y /config/cfgMariaDB.js para obtener los datos desde el archivo .env anterior.
+- Se agrega la funcionalidad de obtener parametros extras desde la linea de comando.
+- Se agrega el archivo /config/EnvironmentArgs.js para obetener los parametros extras desde la linea de comandos
+- Se modifica el /src/server.js para obenter el puerto desde la linea de comando, se toma por default el 8080
+- Se agrega la ruta /api/random según el enunciado del ejercicio 
+- Se agrega el archivo /router/calculo.js para el calculo de los números random.
+

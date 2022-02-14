@@ -10,4 +10,6 @@ Archivos nuevos y modificaciones:
 - Se modifica el /src/server.js para obenter el puerto desde la linea de comando, se toma por default el 8080
 - Se agrega la ruta /api/random según el enunciado del ejercicio 
 - Se agrega el archivo /router/calculo.js para el calculo de los números random.
+- Se agregan en el archivo server.js los routers /api/info y /api/random.
+
 
